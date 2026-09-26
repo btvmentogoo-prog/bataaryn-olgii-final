@@ -11,7 +11,7 @@ import {
   ArrowRight,
   Tent
 } from 'lucide-react';
-import campLodgeRoomImg from '../assets/images/bataar_camp_phone_analysis_hero.webp';
+const campLodgeRoomImg = '/bataar_camp_real_panorama.jpg';
 
 interface HeroProps {
   currentLang: Language;

@@ -189,7 +189,7 @@ export function VisitorAnalyticsModal({ isOpen, onClose, currentLang, onNavigate
       q3Title: '3. What is the most critical service for your expedition?',
       q3_opt1: 'Heavy-duty 4x4 off-road vehicle & recovery gear',
       q3_opt2: 'Luxury Ensuite Ger with private bathroom & solar power',
-      q3_opt3: 'Field paleontologist & expert expedition guide',
+      q3_opt3: 'Experienced local guide & conservation-informed expedition leader',
       q3_opt4: 'Scientific-grade telescope for deep astro-imaging',
       votedBadge: 'Voted',
       voteBtn: 'Vote',

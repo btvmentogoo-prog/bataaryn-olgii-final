@@ -301,7 +301,7 @@ export const VisitorGuideSection: React.FC<VisitorGuideProps> = ({
       title: vg.deluxeGerTitle,
       desc: vg.deluxeGerDesc,
       price: vg.deluxeGerPrice,
-      badge: '⭐ VIP Deluxe Suite',
+      badge: '⭐ Люкс өрөө • Deluxe Room',
       specs: [
         currentLang === 'mn' ? 'Модон доторлогоотой, том давхар ор' : 'Pine wood walls, king-size bed',
         currentLang === 'mn' ? 'Хувийн халуун шүршүүр & 00' : 'Private ensuite bathroom',
@@ -314,7 +314,7 @@ export const VisitorGuideSection: React.FC<VisitorGuideProps> = ({
       title: vg.standardGerTitle,
       desc: vg.standardGerDesc,
       price: vg.standardGerPrice,
-      badge: '🏡 Eco Cabin Room',
+      badge: '🏡 Стандарт өрөө • Standard Room',
       specs: [
         currentLang === 'mn' ? '2 тав тухтай ор' : '2 comfortable twin beds',
         currentLang === 'mn' ? 'Монгол хээтэй уламжлалт ширээ' : 'Traditional painted table & stool',
@@ -327,7 +327,7 @@ export const VisitorGuideSection: React.FC<VisitorGuideProps> = ({
       title: vg.familyGerTitle,
       desc: vg.familyGerDesc,
       price: vg.familyGerPrice,
-      badge: '🎥 Бодит Видео Тоймтой • Family Suite',
+      badge: '🎥 Гэр бүлийн сьют • Family Suite',
       specs: [
         currentLang === 'mn' ? '2 тусдаа унтлагын өрөө (Мастер + 2 ортой)' : '2 separate bedrooms (Master + Twin)',
         currentLang === 'mn' ? 'Хувийн халуун хүйтэн шүршүүр, 00, толь' : 'Private ensuite bathroom with hot shower & vanity',

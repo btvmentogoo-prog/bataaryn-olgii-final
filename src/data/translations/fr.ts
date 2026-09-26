@@ -210,7 +210,7 @@ export const frTranslation: SiteTranslation = {
     capacityLabel: 'Capacité',
     capacityValue: '48 invités maximum (séjour intime et privatif)',
     seasonLabel: 'Saison',
-    seasonValue: 'Toute l’année (Période optimale : mai à octobre)',
+    seasonValue: 'Saison principale : du 20 octobre au 20 avril',
     energyLabel: 'Énergie',
     energyValue: '100% énergie solaire avec stockage par batteries',
     contactLabel: 'Conciergerie',

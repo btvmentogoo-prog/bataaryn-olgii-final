@@ -210,7 +210,7 @@ export const koTranslation: SiteTranslation = {
     capacityLabel: '수용 인원',
     capacityValue: '최대 48명 (VIP 전용 프라이빗 운영)',
     seasonLabel: '운영 시즌',
-    seasonValue: '연중 운영 (최적 시즌: 5월 ~ 10월)',
+    seasonValue: '주요 여행 시즌: 10월 20일 ~ 4월 20일',
     energyLabel: '친환경 에너지',
     energyValue: '100% 태양광 발전 & 탄소 중립 시스템',
     contactLabel: '24시간 컨시어지',

@@ -800,10 +800,10 @@ export const expeditionPackages: ExpeditionPackage[] = [
     priceUSD: 1850,
     priceMNT: 6300000,
     season: {
-      mn: '5-р сараас 10-р сар',
-      en: 'May through October',
-      ja: '5月〜10月',
-      zh: '5月至10月',
+      mn: '10-р сарын 20-ноос 4-р сарын 20',
+      en: 'October 20 through April 20',
+      ja: '10月20日〜4月20日',
+      zh: '10月20日至4月20日',
     },
     groupSize: '4 - 10 аялагч',
     image: 'https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=800&q=80',
@@ -834,111 +834,13 @@ export const expeditionPackages: ExpeditionPackage[] = [
               ],
     },
     itinerary: [
-      {
-        day: 1,
-        title: {
-          mn: 'Улаанбаатар → Төв музей ба Эрдэм шинжилгээний танилцуулга',
-          en: 'Ulaanbaatar: Central Dinosaur Museum & Expedition Briefing',
-          ja: 'ウランバートル集合：国立恐竜中央博物館見学とオリエンテーション',
-          zh: '乌兰巴托：参观国家恐龙中央博物馆与科考行前说明会',
-        },
-        desc: {
-          mn: 'Тарбозавр Батаарын бодит араг ястай танилцаж, экспедицийн аюулгүй ажиллагааны зааварчилгаа авна.',
-          en: 'Private viewing of the repatriated Tarbosaurus bataar skeleton and scientific briefing.',
-          ja: '返還されたタルボサウルス全身骨格の特別鑑賞と発掘マナー講習。',
-          zh: '专场近距离观摩特暴龙巴特尔全身化石真品并进行戈壁科考安全动员。',
-        },
-      },
-      {
-        day: 2,
-        title: {
-          mn: 'Улаанбаатар → Өмнөговь, Даланзадгад, Ёлын ам',
-          en: 'Fly South Gobi: Yol Valley & Ice Gorge Gorge',
-          ja: '南ゴビへフライト：ヨリーン・アム（鷲の谷）渓谷トレッキング',
-          zh: '飞往南戈壁达兰扎达嘎德：徒步约林安（冰峡鹫之谷）',
-        },
-        desc: {
-          mn: 'Өмнөговийн нийслэл рүү нисэж, мөнх цэвдэгтэй Ёлын амын хавцлаар аялан говийн ургамал, амьтантай танилцана.',
-          en: 'Domestic flight to South Gobi and hike the dramatic glacial canyon of Yol Valley.',
-          ja: '国内線で南ゴビへ。真夏でも氷が残るヨリーン・アムの奇観を散策。',
-          zh: '搭乘国内航班抵达南戈壁首府，探索盛夏依然覆冰的约林安峡谷生态。',
-        },
-      },
-      {
-        day: 3,
-        title: {
-          mn: 'Тост тосон бумбын нуруу – Цоохор ирвэсийн нутаг ба хадат хавцал',
-          en: 'Tost Tosonbumba Range: Snow Leopard Habitat & Rugged Canyons',
-          ja: 'トスト・トソンブんば山脈：ユキヒョウの生息地と険しい岩峡',
-          zh: '托斯特托森蓬巴山脉：雪豹栖息保护区与壮丽岩峡',
-        },
-        desc: {
-          mn: 'Цоохор ирвэсийн байгалийн нөөц газар Тост тосон бумбын сүрлэг хад асга, хээрийн судалгааны цэгүүдээр аялж зэрлэг амьтдын мөрөөр орно.',
-          en: 'Explore the rugged peaks of Tost Tosonbumba Nature Reserve, a world-famous habitat for snow leopards and wild mountain fauna.',
-          ja: '世界的なユキヒョウ保護区トスト山脈の険しい岩山を巡り、野生生物の痕跡を調査。',
-          zh: '深入世界知名的雪豹自然保护区托斯特山脉，探索高山陡崖与野生动物生态。',
-        },
-      },
-      {
-        day: 4,
-        title: {
-          mn: 'Хүрэн ханийн Хэц – Нууцлаг тогтоц ба онгон зэрлэг байгаль',
-          en: 'Khuren Khaniin Khets: Ancient Ridges & Untamed Wilderness',
-          ja: 'フレン・ハニー・ヘツ：古代の尾根と手つかずの原生自然',
-          zh: '呼伦哈宁黑茨：神秘地质构造与原始荒野探索',
-        },
-        desc: {
-          mn: 'Хүрэн ханийн Хэцийн сүрлэг хүрэн хадан хана, хөндөгдөөгүй онгон байгальтай танилцаж, палеонтологи ба геологийн ажиглалт хийнэ.',
-          en: 'Traverse the majestic crimson ridge of Khuren Khaniin Khets and conduct geological and wildlife observation.',
-          ja: 'フレン・ハニー・ヘツの赤褐色の壮大な岩壁を観察し、地質学・生態系のフィールドワークを実施。',
-          zh: '实地探秘呼伦哈宁黑茨赤红壮丽的风蚀山脊与戈壁深处未受侵扰的原生旷野。',
-        },
-      },
-      {
-        day: 5,
-        title: {
-          mn: 'Хонгорын элс – Говийн дуут манхан ба тэмээн аялал',
-          en: 'Khongor Sand Dunes: Singing Sands & Gobi Nomads',
-          ja: 'ホンゴル砂丘：歌う砂丘とラクダ遊牧民との交流',
-          zh: '洪戈林沙丘：探秘会唱歌的鸣沙山与双峰驼骑行',
-        },
-        desc: {
-          mn: '180 метр өндөр элсэн манханд гарч дуу гарах үзэгдлийг туршиж, нутгийн малчин айлаар зочлон хоёр бөхт тэмээ унана.',
-          en: 'Scale the 180m singing dune, ride Bactrian camels, and experience authentic Gobi nomadic life.',
-          ja: '高さ180mの鳴き砂を登頂し、フタコブラクダに揺られながら遊牧民の伝統文化を体験。',
-          zh: '登顶180米高的鸣沙绝景，骑乘双峰骆驼，深度体验戈壁游牧民族生活。',
-        },
-      },
-      {
-        day: 6,
-        title: {
-          mn: 'Даланзадгад → Улаанбаатар – Баярын оройн зоог',
-          en: 'Return to Ulaanbaatar: Farewell Mongolian Banquet',
-          ja: 'ウランバートル帰還：伝統モンゴル祝賀ディナー',
-          zh: '返回乌兰巴托：传统蒙古风味庆功晚宴',
-        },
-        desc: {
-          mn: 'Улаанбаатар луу буцаж, аяллын сертификат гардуулах хүндэтгэлийн оройн зоог барина.',
-          en: 'Flight back to the capital and celebration dinner with official Expedition Certificates.',
-          ja: 'ウランバートルへ帰還し、探検隊修了証授与式を兼ねた祝勝ディナー。',
-          zh: '乘机返抵乌兰巴托，举行探险证书颁发仪式与丰盛的传统庆功晚宴。',
-        },
-      },
-      {
-        day: 7,
-        title: {
-          mn: 'Улаанбаатар → Буцах нислэг',
-          en: 'Ulaanbaatar: Departure & International Flights',
-          ja: 'ウランバートル：空港送迎・帰国の途へ',
-          zh: '乌兰巴托：送机返程或继续延展行程',
-        },
-        desc: {
-          mn: 'Чингис Хаан олон улсын нисэх онгоцны буудалд хүргүүлнэ.',
-          en: 'Airport transfer for your journey home with unforgettable prehistoric memories.',
-          ja: '太古のロマンを胸にチンギスハーン国際空港へお見送り。',
-          zh: '专车送往成吉思汗国际机场，满载史前文明震撼记忆踏上归途。',
-        },
-      },
+      { day: 1, title: { mn: 'Даланзадгад → Батаарын өлгий жуулчны бааз', en: 'Dalanzadgad → Bataaryn Ulgii Camp', ja: 'ダランザドガド → バタールのゆりかごキャンプ', zh: '达兰扎达嘎德 → 巴特尔摇篮营地' }, desc: { mn: 'Даланзадгадаас Гурвантэсийн Батаарын өлгий баазад хүрч, байрлан аюулгүй ажиллагаа, зэрлэг амьтан ажиглах үндсэн зааварчилгаа авна.', en: 'Travel from Dalanzadgad to the Bataaryn Ulgii base in Gurvantes for check-in, safety briefing, and wildlife-viewing guidance.', ja: 'ダランザドガドからグルバンテスの拠点へ移動し、安全と野生動物観察の説明を受けます。', zh: '从达兰扎达嘎德前往古尔班特斯的巴特尔摇篮营地，入住并接受安全与野生动物观察说明。' } },
+      { day: 2, title: { mn: 'Тост Тосонбумба – мөр, зэрлэг амьтан, хадны зураг', en: 'Tost Tosonbumba – Tracks, Wildlife & Rock Art', ja: 'トスト・トソンブムバ：足跡・野生動物・岩絵', zh: '托斯特托松布姆巴：足迹、野生动物与岩画' }, desc: { mn: 'Орон нутгийн хөтөч, хамгаалагчийн мэдээлэлд тулгуурлан Тост Тосонбумбын байгалийн тогтоц, амьтдын мөр, хадны зургийн бүсээр аялна.', en: 'Explore Tost Tosonbumba with local guidance, focusing on wildlife tracks, habitat, and rock-art areas.', ja: '現地ガイドとともに野生動物の痕跡、生息地、岩絵地域を巡ります。', zh: '在当地向导带领下探索野生动物足迹、栖息地与岩画区域。' } },
+      { day: 3, title: { mn: 'Цоохор ирвэсийн амьдрах орчин', en: 'Snow Leopard Habitat', ja: 'ユキヒョウの生息地', zh: '雪豹栖息地' }, desc: { mn: 'Нутгийн мэдээлэл, байгаль хамгааллын зөвлөмжид тулгуурлан Тост, Хүрэн ханын хэц, Нэмэгтийн уулсын ирвэсийн амьдрах орчныг алсаас ажиглана.', en: 'Observe snow-leopard habitat from a respectful distance around Tost, Khuren Khan Khets, and the Nemegt Mountains using local conservation guidance.', ja: '現地の保全情報に基づき、トスト、フレン・ハン・ヘツ、ネメグト山地の生息環境を適切な距離から観察します。', zh: '依据当地保护信息，在托斯特、红岩长崖和耐梅盖特山地远距离观察雪豹栖息环境。' } },
+      { day: 4, title: { mn: 'Хэрмэн цав', en: 'Khermen Tsav', ja: 'ヘルメン・ツァフ', zh: '赫尔曼察夫' }, desc: { mn: 'Хэрмэн цавын улаан хад, эртний тогтоц, говийн онгон байгалийг орон нутгийн хөтөчтэй үзэж танилцана.', en: 'Explore the red cliffs, ancient formations, and remote desert landscape of Khermen Tsav with a local guide.', ja: '現地ガイドとともに赤い断崖と古代地形、ゴビの原生景観を巡ります。', zh: '在当地向导带领下探索赫尔曼察夫的红色峡谷、古老地貌与荒野景观。' } },
+      { day: 5, title: { mn: 'Зэрлэг амьтдын мөрөөр', en: 'Following Wildlife Tracks', ja: '野生動物の足跡を追う', zh: '追寻野生动物足迹' }, desc: { mn: 'Тост, Хүрэн ханын хэц, Нэмэгтийн бүсэд тухайн өдрийн нутгийн мэдээлэлд тулгуурлан зэрлэг амьтдын мөр, амьдрах орчны ажиглалт хийнэ.', en: 'Track signs of wildlife across the Tost, Khuren Khan Khets, and Nemegt areas according to current local information.', ja: '当日の現地情報に基づき、トスト、フレン・ハン・ヘツ、ネメグト地域で野生動物の痕跡を観察します。', zh: '根据当天当地信息，在托斯特、红岩长崖和耐梅盖特区域观察野生动物踪迹。' } },
+      { day: 6, title: { mn: 'Нарандаац – тэмээн аялал', en: 'Naran Daats – Camel Trek', ja: 'ナラン・ダーツ：ラクダ・トレッキング', zh: '纳兰达茨：双峰驼骑行' }, desc: { mn: 'Нарандаацын говийн тогтоцоор нутгийн хоёр бөхт тэмээтэй тайван аялж, нар жаргах үеийн говийн уудам байдлыг мэдэрнэ.', en: 'Take a relaxed Bactrian camel trek through the Naran Daats landscape and experience the open Gobi toward sunset.', ja: 'ナラン・ダーツの景観をフタコブラクダでゆっくり巡り、夕暮れのゴビを体験します。', zh: '骑乘双峰驼悠然穿行纳兰达茨，在日落时感受辽阔戈壁。' } },
+      { day: 7, title: { mn: 'Батаарын өлгий → Даланзадгад', en: 'Bataaryn Ulgii → Dalanzadgad', ja: 'バタールのゆりかご → ダランザドガド', zh: '巴特尔摇篮 → 达兰扎达嘎德' }, desc: { mn: 'Өглөө баазаас хөдөлж Даланзадгад руу буцсанаар 7 өдрийн говийн аялал өндөрлөнө.', en: 'Depart the camp in the morning and return to Dalanzadgad, completing the seven-day Gobi journey.', ja: '朝にキャンプを出発しダランザドガドへ戻り、7日間の旅を終えます。', zh: '早晨离开营地返回达兰扎达嘎德，结束七天戈壁之旅。' } },
     ],
     badge: {
       mn: '🌟 Хамгийн эрэлттэй',
@@ -973,7 +875,7 @@ export const expeditionPackages: ExpeditionPackage[] = [
     priceMNT: 10100000,
     season: {
       mn: '5-р сар, 9-р сар, 10-р сар',
-      en: 'May, September, October',
+      en: 'October 20 through April 20',
       ja: '5月、9月、10月',
       zh: '5月、9月、10月',
     },

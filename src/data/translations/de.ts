@@ -210,7 +210,7 @@ export const deTranslation: SiteTranslation = {
     capacityLabel: 'Kapazität',
     capacityValue: 'Max. 48 Gäste (exklusiv & privat)',
     seasonLabel: 'Saison',
-    seasonValue: 'Ganzjährig (Hauptsaison: Mai bis Oktober)',
+    seasonValue: 'Hauptreisezeit: 20. Oktober bis 20. April',
     energyLabel: 'Energieversorgung',
     energyValue: '100% autarker Solarstrom & Batteriespeicher',
     contactLabel: 'Concierge-Service',

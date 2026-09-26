@@ -210,7 +210,7 @@ export const ruTranslation: SiteTranslation = {
     capacityLabel: 'Вместимость',
     capacityValue: 'До 48 гостей (приватный клубный формат)',
     seasonLabel: 'Сезон',
-    seasonValue: 'Круглый год (лучшее время: май – октябрь)',
+    seasonValue: 'Основной сезон: с 20 октября по 20 апреля',
     energyLabel: 'Энергия',
     energyValue: '100% солнечные батареи и накопители энергии',
     contactLabel: 'Консьерж-служба',

@@ -39,7 +39,7 @@ export const Footer: React.FC<FooterProps> = ({ currentLang, onNavigate, onOpenM
                   {t.siteTitle}
                 </span>
                 <p className="text-[10px] uppercase font-bold tracking-[0.25em] text-stone-500">
-                  Luxury Desert Sanctuary & Paleontology Basecamp
+                  Authentic Gobi Camp • Wildlife & Heritage Journeys
                 </p>
               </div>
             </div>
